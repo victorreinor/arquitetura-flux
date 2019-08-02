@@ -19,7 +19,7 @@ O Redux começa fazer sentido quando precisamos de dados que são manipulados po
 
 *Estados Globais: São estados que não tem um dono específico, quando varios componentes utilizam o mesmo estado e manipulam o mesmo estado.*
 
-### Redux Saga
+### Redux Saga (middleware)
 ---
 Utilizamos o redux-saga sempre que precisar fazer qual quer tipo de verificação, qual quer tipo de side effects na hora de manipular um dado dentro de redux.
 
