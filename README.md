@@ -21,6 +21,7 @@ O Redux começa fazer sentido quando precisamos de dados que são manipulados po
 
 ### Redux Saga (middleware)
 ---
-Utilizamos o redux-saga sempre que precisar fazer qual quer tipo de verificação, qual quer tipo de side effects na hora de manipular um dado dentro de redux.
+redux-saga é uma biblioteca que foca em fazer os efeitos colaterais (ex: chamadas assíncronas para buscar dados em uma API, transformações impuras como acessar o cache do navegador, etc) em aplicações React/Redux serem mais fáceis e simples de se criar e manter.
 
+Utilizamos o redux-saga sempre que precisar fazer qual quer tipo de verificação, qual quer tipo de side effects na hora de manipular um dado dentro de redux.
 Então sempre que quisermos fazer uma verificação asincrona ou tipo de side effect (chamadas em api, chamadas em banco, async storage) ou qualquer outra coisa asincrona antes de uma informação ser alterada no reducer nos utilizamos o redux-saga
