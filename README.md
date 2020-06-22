@@ -25,3 +25,28 @@ redux-saga é uma biblioteca que foca em fazer os efeitos colaterais (ex: chamad
 
 Utilizamos o redux-saga sempre que precisar fazer qual quer tipo de verificação, qual quer tipo de side effects na hora de manipular um dado dentro de redux.
 Então sempre que quisermos fazer uma verificação asincrona ou tipo de side effect (chamadas em api, chamadas em banco, async storage) ou qualquer outra coisa asincrona antes de uma informação ser alterada no reducer nos utilizamos o redux-saga
+
+## Passo-a-passo para rodar a aplicação
+
+### `https://github.com/victorreinor/arquitetura-flux`
+Clona o repositorio do projeto;
+
+### `cd arquitetura-flux`
+Entra dentro da pasta do projeto;
+
+### `yarn global add json-server`
+Instala dependencia para criar um API Rest falsa;
+
+### `yarn install`
+Baixa as dependencias que são utilizadas no projeto;
+
+### `json-server server.json -p 3333`
+Este comando ira iniciar o servidor json na porta 3333;
+
+### `yarn start`
+Para iniciar a aplicação em desenvolvimento;
+
+
+### `code .`
+Para abrir o terminal;
+
